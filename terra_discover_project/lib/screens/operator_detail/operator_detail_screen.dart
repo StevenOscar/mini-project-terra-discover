@@ -33,7 +33,7 @@ class OperatorDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    CarouselController carouselController = CarouselController();
+    CarouselSliderController carouselController = CarouselSliderController();
     return BlocBuilder<OperatorDataBloc, OperatorDataState>(
       builder: (context, state) {
         if(state is OperatorDataFiltered){

@@ -55,6 +55,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           fontFamily: GoogleFonts.titilliumWeb().fontFamily,
           brightness: Brightness.dark,
+          useMaterial3: false,
           appBarTheme: const AppBarTheme(
             backgroundColor: ThemeColors.colorBlack
           ),
